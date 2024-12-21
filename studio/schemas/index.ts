@@ -1,4 +1,4 @@
 import blockContent from './blockContent'
-import post from './post'
+import photoshoot from './photoshoot'
 
-export const schemaTypes = [post, blockContent]
+export const schemaTypes = [photoshoot, blockContent]
