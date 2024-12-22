@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build --output public",
+		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
@@ -21,7 +21,6 @@
 		"@portabletext/types": "^2.0.13",
 		"@sanity/types": "^3.52.4",
 		"@sveltejs/adapter-auto": "^3.2.2",
-		"@sveltejs/adapter-vercel": "^5.5.2",
 		"@sveltejs/kit": "^2.5.20",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"@typescript-eslint/eslint-plugin": "^6.21.0",
